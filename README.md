@@ -4,3 +4,7 @@
 
 ## 用法
 
+```bash
+pip install cookiecutter
+cookiecutter https://github.com/yishenggudou/cookiecutter-sphinx-doc.git
+```
