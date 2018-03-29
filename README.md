@@ -64,6 +64,6 @@ make html
 2. 支持planuml
 3. pdf中文支持
 
-## 关注公招
+## 关注微信公众号
 
 ![](data/qrcode_for_gh_eb014d2c0920_344.jpg)
