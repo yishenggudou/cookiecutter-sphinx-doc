@@ -8,3 +8,62 @@
 pip install cookiecutter
 cookiecutter https://github.com/yishenggudou/cookiecutter-sphinx-doc.git
 ```
+
+
+## example
+
+```bash
+(python3) ➜  /tmp cookiecutter https://github.com/yishenggudou/cookiecutter-sphinx-doc.git
+You've downloaded /Users/timgerk/.cookiecutters/cookiecutter-sphinx-doc before. Is it okay to delete and re-download it? [yes]: yes
+project []: simple doc project
+project_slug []: sdp
+book_title []: 项实例项目
+author []: 作者
+version [0.0.1]: 
+release [0.0.1]: 
+description []: 长的简介
+src []: docs
+```
+
+然后进入`docs` 看到
+
+```bash
+(python3) ➜  docs tree
+.
+├── Makefile
+├── conf.py
+├── index.rst
+├── intro.md
+├── make.bat
+├── plantuml.jar
+├── releasenotes.py
+├── test.rst
+└── topdf.sh
+
+0 directories, 9 files
+```
+
+#### 生成html
+
+```bash
+make html
+```
+
+#### 生成pdf
+
+```bash
+./topdf.sh
+```
+
+文件实例 [pdf实例文件](data/odc.pdf)
+
+
+## 特点
+
+1. 支持markdown
+2. 支持planuml
+3. pdf中文支持
+
+## 关注公招
+
+![](data/qrcode_for_gh_eb014d2c0920_344.jpg)
