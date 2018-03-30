@@ -70,6 +70,7 @@ pip install -r requirements.txt
 1. [mactex](https://tug.org/mactex/mactex-download.html)
 2. [planuml](http://plantuml.com/)
 3. [httpdomain](https://sphinxcontrib-httpdomain.readthedocs.io/en/stable/)
+4. [其他插件](https://github.com/sphinx-contrib)
 
 ## 关注微信公众号
 
