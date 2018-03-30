@@ -52,6 +52,7 @@ make html
 #### 生成pdf
 
 ```bash
+pip install -r requirements.txt
 ./topdf.sh
 ```
 
