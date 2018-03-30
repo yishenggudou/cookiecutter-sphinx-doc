@@ -1,8 +1,8 @@
 {
-  "project": "example project",
+  "project": "example project name",
   "project_slug": "epo",
   "book_title": "实例项目文档",
-  "author": "master",
+  "author": "author name",
   "version": "0.0.1",
   "release": "0.0.1",
   "description": "some long description",
