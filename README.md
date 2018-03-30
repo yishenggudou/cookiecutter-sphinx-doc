@@ -68,6 +68,7 @@ make html
 
 1. [mactex](https://tug.org/mactex/mactex-download.html)
 2. [planuml](http://plantuml.com/)
+3. [httpdomain](https://sphinxcontrib-httpdomain.readthedocs.io/en/stable/)
 
 ## 关注微信公众号
 

@@ -1,3 +1,4 @@
 sphinx
 recommonmark
 sphinxcontrib-plantuml
+sphinxcontrib-httpdomain

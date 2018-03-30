@@ -11,6 +11,7 @@ Welcome to java all's documentation!
    :caption: Contents:
 
    intro.md
+   api.rst
    test.rst
 
 Indices and tables
