@@ -1,0 +1,24 @@
+language: python
+
+python:
+  - "3.5"
+
+cache:
+  - pip
+
+#script: pytest
+
+
+sudo: required
+
+services:
+  - docker
+
+before_install:
+  - echo "start"
+
+install:
+  - echo "install"
+
+after_success:
+  - echo "done"

@@ -1,6 +1,6 @@
 @startuml
 
-title <size:20>Sample Sequence</size>
+title <size:20>测试plantuml</size>
 
 actor User
 participant "First Class" as A

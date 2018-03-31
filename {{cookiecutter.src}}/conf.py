@@ -19,9 +19,10 @@
 import os
 import sys
 
-sys.path.insert(0, os.path.abspath('.'))
-sys.path.insert(0, os.path.join(os.path.abspath('.'), 'libs'))
-
+PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, PROJECT_DIR)
+sys.path.insert(0, os.path.join(PROJECT_DIR, 'libs'))
+os.environ["PATH"] = "{0}:{1}".format(PROJECT_DIR, os.environ["PATH"])
 # -- General configuration ------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
@@ -230,6 +231,7 @@ latex_elements = {
 
 # --  planuml config ----------------
 plantuml_theme = "azusa-color"
-plantuml = "java -jar " + "plantuml.jar -Iplantuml_themes/{0}.pu".format(plantuml_theme)
+plantuml_jar_path = os.path.join(PROJECT_DIR, "plantuml.jar")
+# plantuml = "java -jar " + "-Iplantuml_themes/{1}.pu {0}".format(plantuml_jar_path, plantuml_theme)
 plantuml_output_format = "svg"
 plantuml_latex_output_format = "eps"

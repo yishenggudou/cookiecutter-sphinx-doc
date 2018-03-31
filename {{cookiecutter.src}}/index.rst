@@ -1,19 +1,16 @@
-.. java all documentation master file, created by
-   sphinx-quickstart on Thu Mar 22 11:16:23 2018.
+.. {{cookiecutter.project}} documentation master file, created by
+   cookiecutter-sphinx-doc on {% now 'local', '%d/%m/%Y' %}.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to java all's documentation!
+Welcome to {{cookiecutter.project}}'s documentation!
 ====================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+..  toctree::
+    :maxdepth: 2
+    :caption: Contents:
 
-   intro.md
-   api.rst
-   test.rst
-   matplotlib.rst
+    examples/index.rst
 
 Indices and tables
 ==================
