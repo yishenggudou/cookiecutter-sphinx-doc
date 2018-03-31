@@ -36,6 +36,7 @@ extensions = [
     'sphinx.ext.coverage',
     'sphinx.ext.mathjax',
     'sphinx.ext.ifconfig',
+    'sphinx.ext.autodoc',
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
     "sphinxcontrib.plantuml",
@@ -228,7 +229,7 @@ latex_elements = {
 }
 
 # --  planuml config ----------------
-
-plantuml = "java -jar " + "plantuml.jar"
+plantuml_theme = "azusa-color"
+plantuml = "java -jar " + "plantuml.jar -Iplantuml_themes/{0}.pu".format(plantuml_theme)
 plantuml_output_format = "svg"
 plantuml_latex_output_format = "eps"

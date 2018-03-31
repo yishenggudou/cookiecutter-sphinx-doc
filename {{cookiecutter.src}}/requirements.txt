@@ -5,3 +5,4 @@ sphinxcontrib-httpdomain
 matplotlib
 numpy
 IPython
+numpydoc
