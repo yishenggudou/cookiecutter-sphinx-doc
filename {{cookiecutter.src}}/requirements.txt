@@ -2,3 +2,6 @@ sphinx
 recommonmark
 sphinxcontrib-plantuml
 sphinxcontrib-httpdomain
+matplotlib
+numpy
+IPython

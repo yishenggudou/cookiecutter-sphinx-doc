@@ -72,6 +72,10 @@ pip install -r requirements.txt
 3. [httpdomain](https://sphinxcontrib-httpdomain.readthedocs.io/en/stable/)
 4. [其他插件](https://github.com/sphinx-contrib)
 
+## 注意
+
+测试仅验证了`python3` 建议`2`的用户 `virtualenv` 到 `3`
+
 ## 关注微信公众号
 
 ![](data/qrcode_for_gh_eb014d2c0920_344.jpg)

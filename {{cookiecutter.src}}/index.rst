@@ -13,6 +13,7 @@ Welcome to java all's documentation!
    intro.md
    api.rst
    test.rst
+   matplotlib.rst
 
 Indices and tables
 ==================
