@@ -74,7 +74,7 @@ pip install -r requirements.txt
 
 ## 注意
 
-测试仅验证了`python3` 建议`2`的用户 `virtualenv` 到 `3`
+测试仅在`mac`环境下验证了`python3` 建议`2`的用户 `virtualenv` 到 `3`
 
 ## 关注微信公众号
 

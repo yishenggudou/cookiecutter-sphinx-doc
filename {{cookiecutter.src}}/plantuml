@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+PROJECT_DIR=$(dirname $0)
+cd ${PROJECT_DIR}
+theme="azusa-color"
+echo java -jar libs/plantuml.jar -Ilibs/plantuml_themes/${theme}.pu "$@"  >> /tmp/cookiecutter-sphinx-doc.log
+java -jar libs/plantuml.jar -Ilibs/plantuml_themes/${theme}.pu "$@"
