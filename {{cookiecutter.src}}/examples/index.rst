@@ -8,4 +8,5 @@
     http_api_example.rst
     matplotlib_example.rst
     plantuml_example.rst
+    swagger-api.rst
     about.md

@@ -181,7 +181,7 @@ epub_copyright = copyright
 epub_exclude_files = ['search.html']
 try:
     import releasenotes
-
+    
     extensions += ['releasenotes']
 except:
     pass
@@ -209,14 +209,14 @@ def setup(app):
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     'papersize': 'a4paper',
-
+    
     # The font size ('10pt', '11pt' or '12pt').
     # 'pointsize': '12pt',
     'pointsize': '10pt',
     # 'classoptions': ',english',
     'inputenc': '',
     'utf8extra': '',
-
+    
     # Additional stuff for the LaTeX preamble.
     'preamble': '''
 \usepackage{xeCJK}
@@ -235,3 +235,8 @@ plantuml_jar_path = os.path.join(PROJECT_DIR, "plantuml.jar")
 # plantuml = "java -jar " + "-Iplantuml_themes/{1}.pu {0}".format(plantuml_jar_path, plantuml_theme)
 plantuml_output_format = "svg"
 plantuml_latex_output_format = "eps"
+
+## swagger2 -config
+extensions += ['sphinxcontrib.swagger2', ]
+swagger_api_url = "/Users/timgerk/Downloads/api-docs.json"
+swagger_api_domain = "timger.com.cn"

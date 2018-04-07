@@ -6,3 +6,4 @@ matplotlib
 numpy
 IPython
 numpydoc
+sphinxcontrib-sphinx-swagger2-api-doc
