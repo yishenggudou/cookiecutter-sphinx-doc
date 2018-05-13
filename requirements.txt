@@ -8,3 +8,4 @@ IPython
 numpydoc
 sphinxcontrib-sphinx-swagger2-api-doc
 docutils==0.14
+plantweb
