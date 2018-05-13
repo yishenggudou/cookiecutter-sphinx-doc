@@ -1,0 +1,9 @@
+sphinx
+recommonmark
+sphinxcontrib-plantuml
+sphinxcontrib-httpdomain
+matplotlib
+numpy
+IPython
+numpydoc
+sphinxcontrib-sphinx-swagger2-api-doc
