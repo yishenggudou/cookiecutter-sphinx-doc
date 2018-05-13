@@ -7,3 +7,4 @@ numpy
 IPython
 numpydoc
 sphinxcontrib-sphinx-swagger2-api-doc
+doctuils==0.12
