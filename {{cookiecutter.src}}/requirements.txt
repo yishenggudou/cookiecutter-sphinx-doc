@@ -1,3 +1,4 @@
+pip==10.0.1
 sphinx==1.6.7
 recommonmark
 sphinxcontrib-plantuml
